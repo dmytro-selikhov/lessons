@@ -1,0 +1,69 @@
+* {
+  color: green;
+}
+
+p {
+  color: purple;
+}
+
+h1 {
+  color: fuchsia;
+}
+
+a {
+  color: navy;
+}
+
+.text {
+  color: teal;
+}
+
+#about {
+  color: yellowgreen;
+}
+
+[class*="colo"] {
+  color: red;
+}
+
+div.text-selector {
+  color: brown;
+}
+
+p.text-p {
+  color: brown;
+}
+
+.text.etymology {
+  color: cadetblue;
+}
+
+.crimson-color,
+.crimson-example,
+h5 {
+  color: crimson;
+}
+
+.text span {
+  color: chartreuse;
+}
+
+.lesson .text-color {
+  color: darkcyan;
+}
+
+.another-lesson * {
+  color: darkgoldenrod;
+}
+
+.another-lesson>p {
+  color: darkturquoise;
+}
+
+.text-third~p {
+  color: dodgerblue;
+}
+
+.same-level+p {
+  color: gold;
+}
