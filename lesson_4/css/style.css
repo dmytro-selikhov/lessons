@@ -131,7 +131,7 @@ body {
 }
 
 .krovato__sub-title {
-  font-family: "Proxima Nova Rg", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #2B2929;
@@ -142,7 +142,7 @@ body {
 
 .krovato-seo,
 .krovato-blog {
-  font-family: "Proxima Nova Rg", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 2;
@@ -172,7 +172,7 @@ body {
 }
 
 .krovato-h3 {
-  font-family: "Proxima Nova Rg", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #2B2929;
@@ -183,7 +183,7 @@ body {
 
 .krovato-list li {
   padding-left: 40px;
-  font-family: "Proxima Nova Rg", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #2B2929;
