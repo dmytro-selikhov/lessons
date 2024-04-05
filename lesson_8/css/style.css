@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@import url(reset.css);
+
+h1,
+h2 {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.17;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #F8F8F8;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px double #F8F8F8;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin: 20px;
+}
+
+.item p {
+  display: inline-block;
+  padding: 16px;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.22;
+  text-align: center;
+}
+
+.item img {
+  max-width: 300px;
+  max-height: 300px;
+  vertical-align: middle;
+}
+
+.footer {
+  padding: 20px 0px;
+  background-color: #F8F8F8;
+}
