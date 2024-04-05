@@ -1,0 +1,8 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
