@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Локальне підключення шрифтів */
 /* @import url("fonts.css"); */
 
@@ -417,3 +418,354 @@ bottom
 .text {
 	/* text-indent: 20px; */
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+/* study theory */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d1216;
+  background-color: #F8F8F8;
+}
+
+.page {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Causten", sans-serif;
+  color: #000111;
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sub-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.block-element p {
+  color: #011970;
+}
+
+.width {
+  width: 800px;
+  background-color: #75fffd;
+}
+
+.max-width {
+  max-width: 100%;
+  background-color: #75fffd;
+}
+
+.min-width {
+  display: block;
+  min-width: 320px;
+  background-color: #75fffd;
+}
+
+.height {
+  display: block;
+  height: 100px;
+  background-color: #75ffaf;
+}
+
+.max-height {
+  max-height: 100px;
+  background-color: #75ffaf;
+}
+
+.min-height {
+  display: block;
+  min-height: 150px;
+  background-color: #75ffaf;
+}
+
+.overflow {
+  max-height: 150px;
+  overflow: scroll;
+  background-color: #d375ff;
+}
+
+.vertical-align {
+  background-color: #ff7575;
+}
+
+.small-img {
+  max-width: 250px;
+  vertical-align: middle;
+}
+
+.display {
+  margin-bottom: 50px;
+}
+
+.display-inline-block {
+  display: inline-block;
+  background-color: #ffc675;
+}
+
+.display-block {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bold;
+  display: block;
+  background-color: #ffc675;
+}
+
+.display-inline {
+  font-family: "Causten", sans-serif;
+  font-weight: bold;
+  display: inline;
+  background-color: #ffc675;
+}
+
+.display-none {
+  display: none;
+  background-color: #ffc675;
+
+}
+
+/* Тимчасовий приклад побудови конструкції */
+.section {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.items {
+  /* margin: 0 -5px; */
+  margin-left: -5px;
+  margin-right: -5px;
+  font-size: 0;
+  color: #fff;
+}
+
+.item {
+  width: 33.333%;
+  /* width: 15%; */
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+.content {
+  padding: 20px;
+  background-color: #77608d;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* krovato styles */
+.krovato {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.krovato__sub-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 45px;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.krovato-seo,
+.krovato-blog {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  color: #2B2929;
+  text-align: left;
+}
+
+.blog {
+  text-align: left;
+}
+
+.blog-cover {
+  max-width: 1070px;
+  margin-bottom: 50px;
+}
+
+.blog-cover>img {
+  width: 100%;
+}
+
+.krovato-block p {
+  margin-bottom: 20px;
+}
+
+.krovato-blog p {
+  margin-bottom: 20px;
+}
+
+.krovato-h3 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 28px;
+  text-align: left;
+  margin: 44px 0;
+}
+
+.krovato-list li {
+  padding-left: 40px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2B2929;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.footer {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+
+}
+
+.benifit {
+  margin: 44px 0;
+}
+
+.krovato-uppercase {
+  text-transform: uppercase;
+}
+
+
+/* krovato-benefits */
+.krovato-benifits {
+  width: 100%;
+
+}
+
+.benifits-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.benifits-items {
+  /* margin: 0 -5px; */
+  margin-left: -5px;
+  margin-right: -5px;
+  font-size: 0;
+  color: #fff;
+}
+
+.benifits-item {
+  width: 25%;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+.benifits-content {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.benifits-img {
+  margin-bottom: 25px;
+}
+
+.benifits-sub-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.benifits-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2B2929;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+/* ecommerce section */
+.ecommerce {
+  background-color: #F4F4F5;
+  padding: 100px 20px;
+}
+
+.ecommerce-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ecommerce-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ecommerce-items {
+  margin-left: -5px;
+  margin-right: -5px;
+  font-size: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.ecommerce-item {
+  width: 15%;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+.ecommerce-content {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ecommerce-img {
+  max-width: 100%;
+}
+>>>>>>> e78c147babcdd5a13b817bf094a186618c40b546
