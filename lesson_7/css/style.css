@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+@import url("reset.css");
+
+/* study theory */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d1216;
+  background-color: #F8F8F8;
+}
+
+.page {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Causten", sans-serif;
+  color: #000111;
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fbeaff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* krovato styles */
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 45px;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.krovato-blog {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  color: #2B2929;
+  text-align: left;
+}
+
+.blog-cover {
+  max-width: 1070px;
+  margin-bottom: 50px;
+}
+
+.blog-cover>img {
+  width: 100%;
+}
+
+.krovato-block p {
+  margin-bottom: 20px;
+}
+
+.krovato-blog p {
+  margin-bottom: 20px;
+}
+
+.krovato-h3 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 28px;
+  text-align: left;
+  margin: 44px 0;
+}
+
+.krovato-list li {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2B2929;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  background: url(../img/check.svg) 0 0 / 26.67px no-repeat;
+  padding-left: 45px;
+}
+
+/* start lection section  */
+
+.h3-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 28px;
+  text-align: left;
+  margin: 44px 0;
+}
+
+.link {
+  background-color: #8b3dff;
+  padding: 12px;
+  font-weight: 700;
+  line-height: 1.56;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.link span {
+  display: inline-block;
+  background: url("../img/favourite.svg") 0 0 no-repeat;
+  padding-left: 34px;
+}
+
+/* + */
+.link:hover {
+  background-color: #a875ff;
+}
+
+.link:hover span {
+  background-position: 5px 0;
+}
+
+.text {
+  background-color: #7a956b;
+  padding: 15px;
+
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.box:hover .hidden {
+  visibility: visible;
+}
+
+.text:hover {
+  background-color: #77608d;
+}
+
+.link:active {
+  background-color: #7921ed;
+}
+
+.link:visited {
+  background-color: #a199ac;
+}
+
+.link:focus {
+  outline: 2px dashed #ed21ba;
+}
+
+.focus-visible {
+  outline: 5px dotted #ed21ba;
+  background-color: transparent;
+}
+
+.link.show {
+  background-color: rgb(228, 228, 55);
+}
+
+.text-target {
+  display: none;
+  margin: 50px 0;
+}
+
+
+.text-target:target {
+  display: block;
+  background-color: #5f6de9;
+  padding: 15px;
+
+}
+
+.child p:not(:last-child),
+.child-odd p:not(:last-child),
+.child-even p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.child p,
+.child-odd p,
+.child-even p,
+.some-class p {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.child,
+.child-odd,
+.child-even,
+.some-class {
+  margin-bottom: 50px;
+}
+
+.some-class p {
+  background-color: #77608d;
+}
+
+.some-class span {
+  background-color: #81cf9f;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+}
+
+.some-class:has(span) {
+  text-transform: uppercase;
+}
+
+/* .child p:first-child {
+  background-color: #77608d;
+} */
+
+.child p:first-of-type {
+  background-color: #81cf9f;
+}
+
+/* .child p:last-child {
+  background-color: #c3cf81
+} */
+
+.child p:last-of-type {
+  background-color: #cfad81;
+}
+
+.child p:nth-child(3) {
+  background-color: #5a39ec;
+}
+
+.child p:nth-child(7) {
+  background-color: #ec3948;
+}
+
+.child p:nth-child(4n + 2) {
+  background-color: #1df500;
+}
+
+
+.child-odd p:nth-child(odd) {
+  background-color: #beb0b9;
+}
+
+.child-even p:nth-child(even) {
+  background-color: #aef8c1;
+}
+
+.article>* {
+  margin-bottom: 15px;
+}
+
+.article__title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.article__text {
+  line-height: 1.2;
+}
+
+.article__botton {
+  background-color: yellow;
+  padding: 12px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.article__botton:hover {
+  background-color: pink;
+}
+
+.article>*:last-child {
+  margin-bottom: 0px;
+}
+
+/* end lection section  */
+
+
+/* start game section  */
+.game {
+  padding-bottom: 50px;
+}
+
+.game__container {}
+
+
+.game__items {
+  font-size: 0;
+}
+
+.game__start {
+  width: 200px;
+  height: 200px;
+  background: url("../img/start.png") 0 0 /200px no-repeat;
+}
+
+.game__line {
+  background-color: #2f750a;
+  ;
+}
+
+.game__line-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.game__line-2,
+.game__line-2-near,
+.game__line-3-near {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  visibility: hidden;
+}
+
+.game__line-2 {
+  vertical-align: top;
+}
+
+.game__line-2-near {
+  width: calc(70% - 40px);
+  height: 150px;
+}
+
+.game__line-3-near {
+  width: 25px;
+  height: 25px;
+}
+
+.game__line-3 {
+  visibility: hidden;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.game__line-4 {
+  visibility: hidden;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #2f750a;
+}
+
+.game__line-4-near {
+  display: inline-block;
+  width: calc(100% - 10px);
+  height: 70px;
+  visibility: hidden;
+}
+
+.game__line-5 {
+  visibility: hidden;
+}
+
+.game__start:hover+.game__line-1,
+.game__line-1:hover {
+  width: 70%;
+}
+
+.game__line-1:hover+.game__line-2,
+.game__line-2:hover {
+  height: 150px;
+}
+
+.game__line-1:hover~.game__line-2,
+.game__line-2:hover {
+  visibility: visible;
+}
+
+.game__line-2:hover~.game__line-3,
+.game__line-3:hover {
+  visibility: visible;
+  width: 70%;
+}
+
+.game__line-3:hover~.game__line-4,
+.game__line-4:hover {
+  height: 70px;
+  visibility: visible;
+}
+
+.game__finish {
+  visibility: hidden;
+  max-width: 600px;
+}
+
+.game__line-4:hover~.game__line-5,
+.game__line-5:hover {
+  visibility: visible;
+}
+
+.game__line-5 {
+  width: 10px;
+  height: 10px;
+  background-color: #850961;
+}
+
+.game__line-5:hover~.game__finish,
+.game__finish:hover {
+  visibility: visible;
+}
+
+.game__finish img {
+  max-width: 100%;
+}
+
+.game__title {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2B2929;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* end game section  */
+
+/* start about section */
+.about {
+  background: url("../img/bg.jpg") 0 0 no-repeat;
+  background-size: cover;
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  padding: 120px 0px;
+  text-transform: capitalize;
+}
+
+.about__container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.about__body {
+  max-width: 992px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about__title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about__title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 1px;
+  width: 401px;
+  background-image: linear-gradient(90deg,
+      #f00 0%,
+      #42ff00 48.9%,
+      #2400ff 100%);
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 2.22;
+  letter-spacing: -0.36px;
+}
+
+.about__technologies>*:not(:last-child) {
+  margin-right: 60px;
+}
+
+.about__technology {
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.about__technology::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 60px;
+  vertical-align: middle;
+  background-image: linear-gradient(90deg,
+      #f00 0%,
+      #42ff00 48.9%,
+      #2400ff 100%);
+}
+
+/* end about section */
+
+/* start contacts section */
+.contacts {
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  color: #fff;
+  background: #000001;
+  padding: 80px 0;
+}
+
+.contacts__container {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.contact__item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.contact__item span:hover {
+  text-decoration: underline;
+}
+
+
+.contacts__location {
+  text-transform: capitalize;
+}
+
+.contacts__phone::before,
+.contacts__location::before,
+.contacts__email::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.contacts__phone::before {
+  background: url("../img/phone.svg") 0 0 no-repeat;
+}
+
+.contacts__location::before {
+  background: url("../img/location.svg") 0 0 no-repeat;
+}
+
+.contacts__email::before {
+  background: url("../img/email.svg") 0 0 no-repeat;
+}
+
+/* end contacts section */
+/* start footer section */
+.footer {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+}
+
+/* end footer section */
