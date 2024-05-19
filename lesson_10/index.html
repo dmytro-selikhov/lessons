@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <!-- Кодування тексту -->
+  <meta charset="UTF-8">
+  <!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Підключення окремого файлу стилів -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Підключення фавікону -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <!-- Заголовок сторінки в браузері -->
+  <title>Lesson 10 / Інтернет-магазин Krovato технології сну</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- start header-->
+    <header class="header">
+      <!-- start body-header -->
+      <div class="body-header">
+        <div class="body-header__container">
+          <!-- brand -->
+          <a href="#" class="body-header__brand brand"> <img src="img/coach.svg" alt="coach ikon"><img
+              src="img/logo.svg" alt="Krovato технології сну"></a>
+          <!-- catalog -->
+          <div class="body-header__catalog catalog" id="catalog">
+            <a href="#catalog" class="catalog__button button"> <img src="img/icons/catalog.svg"
+                alt="catalog icon"><span>Каталог</span></a>
+            <div class="catalog__popup">
+              <ul class="catalog__list">
+                <!-- ліжка -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/beds.svg"
+                      alt="beds icon"><span>Ліжка</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a class="sub-catalog__link" href="#">Ліжка від Krovato</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a class="sub-catalog__link" href="#">Ліжка з підйомним механізмом</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a class="sub-catalog__link" href="#">Ліжка Акції</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Ліжка з м'яким узголів'ям</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дерев'яні ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дитячі ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Двоспальні ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Односпальні ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Металеві ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Ліжка з вбудованим матрацом</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дивани-ліжка</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Ліжка подіуми</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- матраци -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__sub-catalog"><img src="img/header/mattresses.svg"
+                      alt="mattresses icon"><span>Матраци</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Односпальні матраци</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Двоспальні матраци</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Пружинний блок Bonnel</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Пружинний блок Pocket Spring</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Безпружинні матраци</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Матраци з ефектом Зима-Літо</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Футони</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дитячі матраци</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Матраци Економ</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- м'які меблі -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/upholstered-furniture.svg"
+                      alt="upholstered furniture ikon"><span>М'які
+                      меблі</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дивани з Акції</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Прямі дивани</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кутові дивани</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дитячі дивани</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Тахти</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Крісла</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- шафи -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/wardrobes.svg"
+                      alt="wardrobes icon"><span>Шафи</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи купе</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Розпашні шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Готові шафи купе</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кутові шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Недорогі шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Пенали</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">2-х дверні шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">3-х дверні шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">4-х дверні шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи в передпокій</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи у вітальню</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи в спальню</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи в дитячу</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Шафи купе з нішею під телевізор</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Офісні шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Прямі шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Готові шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Білі шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Книжкові шафи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Гардеробні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Стелажі</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- комоди -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/chests-of-drawers.svg"
+                      alt="chests of drawers ikon"><span>Комоди</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Комоди для спальні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Комоди для вітальні</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- тумби -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/bedside-tables.svg"
+                      alt="bedside tables icon"><span>Тумби</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="" class="sub-catalog__link">Тумби маленькі</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="" class="sub-catalog__link">Тумби середні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="" class="sub-catalog__link">Тумби маленькі</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- столи -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/tables.svg"
+                      alt="tables icon"><span>Столи</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Обідні столи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Робочі столи</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Сімейні столи</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- стільці -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/chairs.svg"
+                      alt="chairs icon"><span>Стільці</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Обідні стільці</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a class="sub-catalog__link" href="#">Табуретки</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- меблеві стіни -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/furniture-walls.svg"
+                      alt="furniture walls icon"><span>Меблеві
+                      стіни</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Дитяча стіна</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Книжна стіна</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- кухні -->
+                <li class="catalog__item">
+                  <a href="#" class="catalog__link"><img src="img/header/kitchens.svg"
+                      alt="kitchens icon"><span>Кухні</span></a>
+                  <ul class="catalog__sub-catalog sub-catalog">
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Готові кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Недорогі кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні посекційно</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кутові кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Вбудовані кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Прямі кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Модульні кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні з барною стійкою</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні лофт</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні хай-тек</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні модерн</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Класичні кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухні прованс</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Білі кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Чорні кухні</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухонні куточки</a>
+                    </li>
+                    <li class="sub-catalog__item">
+                      <a href="#" class="sub-catalog__link">Кухонні стільці</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header-->
+
+    <!-- start main -->
+    <main class="main">
+      <!-- popular -->
+      <section class="main__popular popular">
+        <div class="popular__container">
+          <div class="popular__header header">
+            <!-- popular__heading heading >> popular__header header -->
+            <h2 class="header__title title">Популярні категорії</h2>
+          </div>
+          <div class="popular__grid">
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Ліжка</a>
+                  </h3>
+                  <div class="item-popular__number">54</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/beds.avif" type="image/avif">
+                    <source srcset="img/home/popular/beds.webp" type="image/webp">
+                    <img src="img/home/popular/beds.png" alt="Королівське зелене ліжко">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Матраци</a>
+                  </h3>
+                  <div class="item-popular__number">30</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/mattresses.avif" type="image/avif">
+                    <source srcset="img/home/popular/mattresses.webp" type="image/webp">
+                    <img src="img/home/popular/mattresses.png" alt="Білий компактний матрац">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">М'які меблі</a>
+                  </h3>
+                  <div class="item-popular__number">196</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/upholstered-furniture.avif" type="image/avif">
+                    <source srcset="img/home/popular/upholstered-furniture.webp" type="image/webp">
+                    <img src="img/home/popular/upholstered-furniture.png" alt="Сірий круглий диван">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Шафи</a>
+                  </h3>
+                  <div class="item-popular__number">79</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/wardrobes.avif" type="image/avif">
+                    <source srcset="img/home/popular/wardrobes.webp" type="image/webp">
+                    <img src="img/home/popular/wardrobes.png" alt="Простора шафа">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Комоди</a>
+                  </h3>
+                  <div class="item-popular__number">54</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/chests-of-drawers.avif" type="image/avif">
+                    <source srcset="img/home/popular/chests-of-drawers.webp" type="image/webp">
+                    <img src="img/home/popular/chests-of-drawers.png" alt="Темний комод">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Тумби</a>
+                  </h3>
+                  <div class="item-popular__number">64</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/bedside-tables.avif" type="image/avif">
+                    <source srcset="img/home/popular/bedside-tables.webp" type="image/webp">
+                    <img src="img/home/popular/bedside-tables.png" alt="Коричнева мінімалістична тумба">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Столи</a>
+                  </h3>
+                  <div class="item-popular__number">35</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/tables.avif" type="image/avif">
+                    <source srcset="img/home/popular/tables.webp" type="image/webp">
+                    <img src="img/home/popular/tables.png" alt="Дерев'яний стіл">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Стільці</a>
+                  </h3>
+                  <div class="item-popular__number">89</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/chairs.avif" type="image/avif">
+                    <source srcset="img/home/popular/chairs.webp" type="image/webp">
+                    <img src="img/home/popular/chairs.png" alt="Мінімалістичний темний стілець">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Меблеві стіни</a>
+                  </h3>
+                  <div class="item-popular__number">24</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/furniture-walls.avif" type="image/avif">
+                    <source srcset="img/home/popular/furniture-walls.webp" type="image/webp">
+                    <img src="img/home/popular/furniture-walls.png" alt="Корчинево-біла меблева стіна">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+            <div class="popular__column">
+              <article class="item-popular">
+                <div class="item-popular__header">
+                  <h3 class="item-popular__title">
+                    <a href="#" class="tem-popular__link">Кухні</a>
+                  </h3>
+                  <div class="item-popular__number">30</div>
+                </div>
+                <a href="#" class="item-popular__painting">
+                  <picture>
+                    <source srcset="img/home/popular/kitchens.avif" type="image/avif">
+                    <source srcset="img/home/popular/kitchens.webp" type="image/webp">
+                    <img src="img/home/popular/kitchens.png" alt="Вбудована кухня">
+                  </picture>
+                </a>
+                <a href="#" class="item-popular__arrow"><img src="img/icons/arrow-turn.svg" alt="arrow icon"></a>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- article -->
+
+      <article class="article">
+        <div class="article__container">
+          <h1 class="article__title title">KROVATO - коли потрібні якісні меблі за доступною ціною!</h1>
+
+          <div class="article__text">
+            <p>
+              Якщо в пошуковий рядок браузера ввести запит: «Куплю ліжко,
+              шафу, диван», система видасть сотні продавців, що
+              спеціалізуються з продажу цього товару. Але далеко не всі
+              магазини та сайти в інтернеті можуть запропонувати такий самий
+              різноманітний асортимент, як наша компанія. Та й з нашими цінами
+              конкурувати можуть мало хто. Адже товар ми отримуємо
+              безпосередньо від виробників, не переплачуючи за послуги
+              посередників. До того ж, продажі ми ведемо як онлайн, так і в
+              салоні, при цьому ціна на асортимент онлайн та офлайн -
+              однакова.
+            </p>
+            <p>
+              Ми співпрацюємо тільки з найкращими вітчизняними та зарубіжними
+              фабриками та компаніями, які отримали визнання покупців та
+              експертів меблевої справи. Для нас важливо, щоб товар, який ми
+              продаємо, відповідав міжнародним стандартам якості, був із
+              сертифікованих матеріалів – довговічних, красивих та екологічно
+              чистих. Ми з особливою ретельністю відбираємо пропозиції для
+              магазину, тому можемо поручитися за їхню якість і впевнено
+              рекомендувати клієнтам. У нас ви легко знайдете меблеві серії в
+              класичному та модерному стилі, лінійки для оформлення житла в
+              дусі романтики або скандинавського лаконізму.
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- overlay -->
+    <a class="overlay" href="#"></a>
+  </div>
+</body>
+
+</html>
